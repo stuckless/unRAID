@@ -63,9 +63,11 @@
         </Variable>
     </Environment>
 
-    <Config Name="Port 1" Target="9090" Default="9090" Mode="tcp" Description="Crush FTP Web Port 9090" Type="Port" Display="advanced-hide" Required="true" Mask="false">9090</Config>
-    <Config Name="CrushFTP Home" Target="/var/opt/CrushFTP8_PC" Default="/mnt/user/appdata/crushftp/" Mode="rw" Description="CrushFTP Home/Installation Directory" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/crushftp/</Config>
+    <Config Name="HTTP Port" Target="9090" Default="9090" Mode="tcp" Description="Crush HTTP Port" Type="Port" Display="advanced-hide" Required="true" Mask="false">9090</Config>
+    <Config Name="HTTPS Port" Target="9443" Default="9443" Mode="tcp" Description="Crush HTTPS Port " Type="Port" Display="advanced-hide" Required="true" Mask="false">9443</Config>
+    <Config Name="FTP Port" Target="9021" Default="9021" Mode="tcp" Description="Crush FTP Port" Type="Port" Display="advanced-hide" Required="true" Mask="false">9021</Config>
 
+    <Config Name="CrushFTP Home" Target="/var/opt/CrushFTP8_PC" Default="/mnt/user/appdata/crushftp/" Mode="rw" Description="CrushFTP Home/Installation Directory" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/crushftp/</Config>
     <Config Name="FTP Files" Target="/files" Default="/mnt/user/ftpfiles/" Mode="rw" Description="FTP Files" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/ftpfiles/</Config>
 
     <Config Name="unRAID Share Path" Target="/unraid" Default="/mnt/user" Mode="rw" Description="Container Path: /unraid" Type="Path" Display="hidden" Required="false" Mask="false">/mnt/user</Config>
