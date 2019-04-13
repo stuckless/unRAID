@@ -12,10 +12,9 @@
     <Overview>
         CrushFTP is an extremely powerful, easy to use FTP solution.
     </Overview>
-    <Category>Network:FTP Network:Other Productivity:Tools Network:Web</Category>
+    <Category>Network:FTP Network:Other Productivity: Network:Web</Category>
     <WebUI>http://[IP]:[PORT:9090]/</WebUI>
     <TemplateURL/>
-    <Icon></Icon>
     <ExtraParams/>
 
     <Description>
